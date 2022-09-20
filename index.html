@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To do App</h1>
+      <div class="form">
+        <input type="text" class="input" autocomplete="off" placeholder=" " />
+        <label for="" class="label">New task</label>
+      </div>
+
+      <div class="controls">
+        <ul class="filters">
+          <li class="active" id="all">All</li>
+          <li id="completed">Completed</li>
+          <li id="uncompleted">uncompleted</li>
+        </ul>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="todo-list">
+        <!-- <li class="todo-item">
+          <label for="1">
+            <input type="checkbox" class="input-checkbox" />
+            <p class="completed">Learn Html</p>
+          </label>
+
+          <ul class="menu">
+            <li><i class="fa-solid fa-pen"></i></li>
+            <li><i class="fa-solid fa-trash"></i></li>
+          </ul>
+        </li> -->
+      </ul>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
